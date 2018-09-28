@@ -2,21 +2,15 @@
 {
 	partial class MainForm
 	{
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
 		private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
 		protected override void Dispose(bool disposing)
 		{
 			if (disposing && (components != null))
 			{
 				components.Dispose();
 			}
+
 			base.Dispose(disposing);
 		}
 
@@ -95,10 +89,10 @@
 		}
 
 		#endregion
+
 		private System.Windows.Forms.TextBox fullNameTextBox;
 		private System.Windows.Forms.Label fullNameLabel;
 		private System.Windows.Forms.Button insertButton;
 		private System.Windows.Forms.ListBox fullNameslistBox;
 	}
 }
-
